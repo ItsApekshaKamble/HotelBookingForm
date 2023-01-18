@@ -1,0 +1,257 @@
+﻿
+body {
+    background-color: hotpink;
+    background-image: url("https://assets.architecturaldigest.in/photos/62de7667499ca8eca01447ae/master/pass/The%20infinity%20pool%20under%20the%20shade%20of%20a%20mango%20tree.png");
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+h1 {
+    text-align: center;
+    font-family: Calibri;
+}
+
+input {
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-family: Arial;
+}
+
+
+div.panel-body {
+    background-color: transparent;
+    background: rgba(255,255,255,0.4);
+    /*backdrop-filter: blur(5px);*/
+    border-radius:14px;
+    width: 700px;
+    position: relative;
+    left: 260px;
+    margin-left: 10px;
+}
+
+div.name {
+    width:180px;
+    position: relative;
+    margin-left:90px;
+    top: 30px;
+    left: 0px;
+    
+}
+.name ::placeholder{
+    color:black;
+}
+
+#txtName {
+    
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+div.email {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 50px;
+    left: 0px;
+}
+
+.email ::placeholder {
+    color: black;
+}
+
+#txtmail {
+    width: 500px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.phone {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 70px;
+    left: 0px;
+}
+
+.phone ::placeholder {
+    color: black;
+}
+
+#txtphone {
+    width: 500px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.checkInDate {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 100px;
+    left: 0px;
+}
+
+#txtcheckindate {
+    width: 250px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+.checkInDate input[type="date" i]{
+    
+}
+
+
+div.checkInTime {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 50px;
+    left: 300px;
+}
+
+#txtcheckintime {
+    width: 200px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.checkOutDate {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 70px;
+    left: 0px;
+}
+
+#txtcheckoutdate {
+    width: 250px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.checkOutTime {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: 22px;
+    left: 300px;
+}
+
+#txtchechouttime {
+    width: 200px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.roomPreference {
+    width: 435px;
+    position: relative;
+    margin-left: 90px;
+    top: 136px;
+    left: -5px;
+}
+
+#txtroomPreference {
+    width: 360px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+div.noOfRooms {
+    width: 180px;
+    position: relative;
+    margin-left: 90px;
+    top: -40px;
+    left: -3px;
+}
+
+.noOfRooms ::placeholder {
+    color: black;
+}
+#txtnoOfRooms {
+    width: 170px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.adults {
+    width: 120px;
+    position: relative;
+    margin-left: 320px;
+    top: -90px;
+    left: 0px;
+   place-content:center;
+}
+
+.adults ::placeholder {
+    color: black;
+}
+#txtadults {
+    width: 110px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.children {
+    width: 120px;
+    position: relative;
+    margin-left: 475px;
+    top: -140px;
+    left: 0px;
+}
+
+.children ::placeholder {
+    color: black;
+}
+#txtchildren {
+    width: 110px;
+    height: 30px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+div.button {
+    width: 500px;
+    position: relative;
+    
+}
+
+#Button1 {
+    width: 510px;
+    height: 40px;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #ff2785, #da75ee, #6db1ff, #00dcff, #00f8ff);
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+input#Button1:hover {
+    background-image: linear-gradient(to right top, #eee9eb, #e2d6eb, #b9cbf1, #71c6ea, #04bfc4);
+    transform: scale(1.1);
+}
+
+#GridView1 {
+    position: relative;
+    left: 30px;
+    top: 70px;
+    border: none;
+    font-family:Calibri;
+    background: rgba(247, 239, 161,0.6);
+}
+
